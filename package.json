@@ -4,7 +4,11 @@
   "description": "Fast, Fun, High-context communication. The perfect assets is this",
   "main": "",
   "scripts": {
-    "update-list": "node scripts/generate_decomoji_list.js"
+    "update-list": "node scripts/generate_decomoji_list.js",
+    "import-basic": "cd scripts/ && bundle exec ruby import.rb",
+    "import-extra": "cd scripts/ && bundle exec ruby import_extra.rb",
+    "remove-basic": "cd scripts/ && bundle exec ruby remove.rb",
+    "remove-extra": "cd scripts/ && bundle exec ruby remove_extra.rb"
   },
   "repository": {
     "type": "git",
